@@ -2,10 +2,10 @@ import React from "react";
 
 function Home() {
   return (
-    <>
+    <div name="Inicio">
       <div className="mt-1 container-fluid d-flex justify-content-center shadow">
         <img
-          src="/src/assets/image.jpg"
+          src="/src/assets/FirstImageAnimated.gif"
           className="w-auto img-fluid align-self-center"
           alt="notFound"
         />
@@ -20,7 +20,7 @@ function Home() {
        <strong> Instructores  </strong> 
       </div>
       
-    </>
+    </div>
   );
 }
 

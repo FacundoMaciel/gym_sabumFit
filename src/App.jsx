@@ -1,9 +1,10 @@
 import React from "react"
-import Banner from "./components/Banner"
 import DataAndPinctures from "./components/DataAndPinctures"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Instructors from "./components/Instructors"
 import NavBar from "./components/NavBar"
+import Pictures from "./components/Pictures"
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Home />      
       <Instructors />
       <DataAndPinctures />
+      <Pictures />
+      <Footer />
     </div>
   )
 }

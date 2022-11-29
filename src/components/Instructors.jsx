@@ -3,6 +3,7 @@ import React from "react";
 function Instructores() {
   return (
     <div
+      name="Instructores"
       id="carouselExampleControls"
       className="carousel carousel-dark slide"
       data-bs-ride="carousel"
@@ -47,10 +48,7 @@ function Instructores() {
                   <div className="card-body">
                     <h3 className="card-title fw-bold ">Franco Fernandez</h3>
                     <h5 className="card-text mt-5">
-                     “Nos dedicaremos a la
-                      construcción de una sociedad humana de paz completa en la
-                      cual la justicia, la moralidad, la confianza y el
-                      humanismo prevalezcan.”
+                     “Nos uniremos con todos los hombres en una hermandad común sin mirar límites de religión, raza, nacionalidad ni ideología.Nos dedicaremos a la construcción de una sociedad humana de paz completa en la cual la justicia, la moralidad, la confianza y el humanismo prevalezcan.”
                     </h5>
                     <p className="card-text mt-5">Sabum Fit Asesor Fitness</p>
                   </div>

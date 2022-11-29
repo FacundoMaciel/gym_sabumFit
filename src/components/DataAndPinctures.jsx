@@ -2,11 +2,23 @@ import React from "react";
 
 function DataAndPinctures() {
   return (
-    <>
+    <div name="Info">
       <div className="bg-primary mb-3 container-fluid py-1 text-center text-uppercase py-1 header-offer">
-        <strong> Info y Fotos </strong>
+        <strong> Info </strong>
       </div>
       <div className="d-flex m-3 row">
+      <div className="col-md-4">
+          <img
+            src="/src/assets/crossfit.jpg"
+            className="card-img-top"
+            alt="..."
+          />
+          <div className="card-body">
+            <p className="card-text">
+            CrossFit es una técnica de entrenamiento que conecta movimientos de diferentes disciplinas, tales como la halterofilia, el entrenamiento metabólico o el gimnástico. Consiste en acometer un programa de ejercicios (flexiones, tracción, etc), en un tiempo determinado y con un número definido de veces. 
+            </p>
+          </div>
+        </div>
         <div className="col-md-4">
           <img
             src="/src/assets/powerL.jpg"
@@ -67,7 +79,7 @@ function DataAndPinctures() {
             </p>
           </div>
         </div>
-        <div className="col-md-4">
+        {/* <div className="col-md-4">
           <img
             src="/src/assets/image1.jpg"
             className="card-img-top"
@@ -78,21 +90,8 @@ function DataAndPinctures() {
               
             </p>
           </div>
-        </div>
-
-        <div className="col-md-4">
-          <img
-            src="/src/assets/image3.jpg"
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="card-text">
-              
-            </p>
-          </div>
-        </div>
-        <div className="col-md-4">
+        </div> */}
+        {/* <div className="col-md-4">
           <img
             src="/src/assets/image2.jpg"
             className="card-img-top"
@@ -103,9 +102,9 @@ function DataAndPinctures() {
               
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
-    </>
+    </div>
   );
 }
 

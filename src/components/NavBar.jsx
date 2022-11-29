@@ -1,7 +1,31 @@
 import React from "react";
-import { FiLogIn } from 'react-icons/fi';
+import { Link } from "react-scroll";
 
 function NavBar() {
+
+  const links = [
+    {
+      id: 1,
+      link: "Inicio",
+    },
+    {
+      id: 2,
+      link: "Instructores",
+    },
+    {
+      id: 3,
+      link: "Info",
+    },
+    {
+      id: 4,
+      link: "Fotos",
+    },
+    {
+      id: 5,
+      link: "Contacto",
+    },
+  ];
+
   return (
     <nav className="sticky-top navbar navbar-expand-lg bg-primary" id="nav">
       <div className="container-fluid">
@@ -23,34 +47,46 @@ function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link fw-bold " aria-current="page" href="#">
                 Inicio
               </a>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="nav-item "
+          >
+            <Link to={link} smooth duration={500} 
+            className="nav-link fw-bold"
+            role="button"
+            >
+              {link}
+            </Link>
+          </li>
+        ))}
+            {/* <li className="nav-item">
               <a className="nav-link fw-bold " href="#">
                 Instructores
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link fw-bold " href="#">
-                Info y Fotos
+                Info
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link fw-bold " href="#">
+                Fotos
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link fw-bold " href="#">
                 Recomendaciones
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
-        <a 
-        className="nav-link fw-bold text-black fs-sm-6"
-        href="https://accesogym.com.ar/sabumfit/" 
-        target="_blank"> Ingresar <span> </span>
-        <FiLogIn color="black" size={30}/>
-        </a>
       </div>
     </nav>
   );
