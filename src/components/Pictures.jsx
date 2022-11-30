@@ -5,46 +5,46 @@ function Pictures() {
     const images = [
       {
         id: 11,
-        image: "/src/assets/fotos/image1.jpg",
+        image: "/src/assets/image1.png",
       },
       {
         id: 13,
-        image: "/src/assets/fotos/image3.jpg",
+        image: "/src/assets/image3.png",
       },
       {
         id: 14,
-        image: "/src/assets/fotos/image4.jpg",
+        image: "/src/assets/image4.png",
       },
       {
         id: 15,
-        image: "/src/assets/fotos/image5.jpg",
+        image: "/src/assets/image5.png",
       },
     ];
 
     const images2 = [
         {
             id: 11,
-            image: "/src/assets/fotos/image2.jpg",
+            image: "/src/assets/image2.png",
           },
         {
           id: 17,
-          image: "/src/assets/fotos/image7.jpg",
+          image: "/src/assets/image7.png",
         },
         {
           id: 18,
-          image: "/src/assets/fotos/image8.jpg",
+          image: "/src/assets/image8.png",
         },
         {
           id: 19,
-          image: "/src/assets/fotos/image9.jpg",
+          image: "/src/assets/image9.png",
       },
         {
           id: 20,
-          image: "/src/assets/fotos/image10.jpg",
+          image: "/src/assets/image10.png",
         },
         {
           id: 21,
-          image: "/src/assets/fotos/image11.jpg",
+          image: "/src/assets/image11.png",
         },
       ];
 

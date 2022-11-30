@@ -1,13 +1,17 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 function Footer() {
   return (
-    <div name="Contacto" className="container my-5">
+    <div name="Contacto" className="container my-5"> 
+     <div className="bg-primary shadow container-fluid py-1 text-center text-uppercase py-1">
+       <strong className="text-white"> Para mas informacion  </strong> 
+      </div>
       <section className="">
               <a
-                className="btn btn-outline-primary btn-floating m-1"
+                className="btn btn-outline-dark btn-floating m-1"
                 href="https://instagram.com/sabumfit?igshid=NTdlMDg3MTY="
                 target="_blank"
                 role="button"
@@ -15,19 +19,27 @@ function Footer() {
                 <AiFillInstagram size={20}/>
               </a>
               <a
-                className="btn btn-outline-primary btn-floating m-1"
+                className="btn btn-outline-dark btn-floating m-1"
                 href="https://www.facebook.com/sabumfit?mibextid=ZbWKwL"
                 target="_blank"
                 role="button"
               >
                 <AiFillFacebook size={20}/>
               </a>
+              <a
+                className="btn btn-outline-dark btn-floating m-1"
+                href="https://www.facebook.com/sabumfit?mibextid=ZbWKwL"
+                target="_blank"
+                role="button"
+              >
+                <AiOutlineMail size={20}/>
+              </a>
         <footer className="text-center text-white bg-primary">
           <div className="container p-4 pb-0">
             <section className="">
               <p className="d-flex justify-content-center align-items-center">
                 <span className="me-3 fw-bold fs-4">
-                ¡El cuerpo consigue lo que la mente cree!
+                ¡EL CUERPO CONSIGUE LO QUE LA MENTE CREE!
                 </span>
                 <button
                   type="button"

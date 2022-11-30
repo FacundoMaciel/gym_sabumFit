@@ -1,4 +1,8 @@
 import React from "react";
+import carlos from "/src/assets/sabum.png"
+import franco from "/src/assets/franco.png"
+import yessica from "/src/assets/señora.png"
+import jony from "/src/assets/jony.png"
 
 function Instructores() {
   return (
@@ -15,9 +19,9 @@ function Instructores() {
               <div className="row g-0">
                 <div className="col-md-3">
                   <img
-                    src="/src/assets/sabum.jpg"
+                    src={carlos}
                     className="img-fluid rounded-start shadow"
-                    alt="..."
+                    alt="notFound"
                   />
                 </div>
                 <div className="col-md-8">
@@ -39,9 +43,9 @@ function Instructores() {
               <div className="row g-0">
                 <div className="col-md-3">
                   <img
-                    src="/src/assets/franco.jpg"
+                    src={franco}
                     className="img-fluid rounded-start shadow"
-                    alt="..."
+                    alt="notFound"
                   />
                 </div>
                 <div className="col-md-8">
@@ -61,9 +65,9 @@ function Instructores() {
               <div className="row g-0">
                 <div className="col-md-3">
                   <img
-                    src="/src/assets/señora.jpg"
+                    src={yessica}
                     className="img-fluid rounded-start shadow"
-                    alt="..."
+                    alt="notFound"
                   />
                 </div>
                 <div className="col-md-8">
@@ -86,9 +90,9 @@ function Instructores() {
               <div className="row g-0">
                 <div className="col-md-3">
                   <img
-                    src="/src/assets/jony.jpg"
+                    src={jony}
                     className="img-fluid rounded-start shadow"
-                    alt="..."
+                    alt="notFound"
                   />
                 </div>
                 <div className="col-md-8">

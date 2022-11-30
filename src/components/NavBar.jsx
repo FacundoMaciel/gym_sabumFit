@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+import logo from "/src/assets/logoAnimado2.gif"
+
 
 function NavBar() {
 
@@ -30,7 +32,7 @@ function NavBar() {
     <nav className="sticky-top navbar navbar-expand-lg bg-primary" id="nav">
       <div className="container-fluid">
           <img className="navbar-brand text-white"
-          src="/src/assets/logoAnimado2.gif" 
+          src={logo} 
           alt="NotFound" 
           height="50" 
           width="40"/>
@@ -65,28 +67,11 @@ function NavBar() {
             </Link>
           </li>
         ))}
-            {/* <li className="nav-item">
-              <a className="nav-link fw-bold " href="#">
-                Instructores
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold " href="#">
-                Info
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold " href="#">
-                Fotos
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link fw-bold " href="#">
-                Recomendaciones
-              </a>
-            </li> */}
           </ul>
         </div>
+        <span className="">
+        Equipo de Entrenamiento en métodos de Fuerza y Acondicionamiento. Nuestro lema es la AUTOSUPERACION
+        </span>
       </div>
     </nav>
   );

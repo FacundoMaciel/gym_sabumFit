@@ -1,4 +1,10 @@
 import React from "react";
+import crossfit from "/src/assets/crossfit.png"
+import power from "/src/assets/powerL.png"
+import fuerza from "/src/assets/fuerza.png"
+import weight from "/src/assets/weightL.png"
+import funcional from "/src/assets/funcional.png"
+import skills from "/src/assets/skills.png"
 
 function DataAndPinctures() {
   return (
@@ -9,7 +15,7 @@ function DataAndPinctures() {
       <div className="d-flex m-3 row">
       <div className="col-md-4">
           <img
-            src="/src/assets/crossfit.jpg"
+            src={crossfit}
             className="card-img-top"
             alt="..."
           />
@@ -21,7 +27,7 @@ function DataAndPinctures() {
         </div>
         <div className="col-md-4">
           <img
-            src="/src/assets/powerL.jpg"
+            src={power}
             className="card-img-top"
             alt="..."
           />
@@ -33,7 +39,7 @@ function DataAndPinctures() {
         </div>
         <div className=" col-md-4">
           <img
-            src="/src/assets/fuerza.jpg"
+            src={fuerza}
             className="card-img-top"
             alt="..."
           />
@@ -45,7 +51,7 @@ function DataAndPinctures() {
         </div>
         <div className=" col-md-4">
           <img
-            src="/src/assets/wigthL.jpg"
+            src={weight}
             className="card-img-top"
             alt="..."
           />
@@ -57,7 +63,7 @@ function DataAndPinctures() {
         </div>
         <div className=" col-md-4">
           <img
-            src="/src/assets/funcional.jpg"
+            src={funcional}
             className="card-img-top"
             alt="..."
           />
@@ -69,7 +75,7 @@ function DataAndPinctures() {
         </div>
         <div className="col-md-4">
           <img
-            src="/src/assets/skills.jpg"
+            src={skills}
             className="card-img-top"
             alt="..."
           />
@@ -79,30 +85,6 @@ function DataAndPinctures() {
             </p>
           </div>
         </div>
-        {/* <div className="col-md-4">
-          <img
-            src="/src/assets/image1.jpg"
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="card-text">
-              
-            </p>
-          </div>
-        </div> */}
-        {/* <div className="col-md-4">
-          <img
-            src="/src/assets/image2.jpg"
-            className="card-img-top"
-            alt="..."
-          />
-          <div className="card-body">
-            <p className="card-text">
-              
-            </p>
-          </div>
-        </div> */}
       </div>
     </div>
   );

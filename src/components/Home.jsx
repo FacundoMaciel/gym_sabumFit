@@ -1,17 +1,19 @@
 import React from "react";
+import imgAnimated from "/src/assets/FirstImageAnimated.gif"
+import sabumFit from "/src/assets/sabumfit.png"
 
 function Home() {
   return (
     <div name="Inicio">
       <div className="mt-1 container-fluid d-flex justify-content-center shadow">
         <img
-          src="/src/assets/FirstImageAnimated.gif"
+          src={imgAnimated}
           className="w-auto img-fluid align-self-center"
           alt="notFound"
         />
       </div>
       <img
-          src="/src/assets/sabumfit.png"
+          src={sabumFit}
           className="w-auto img-fluid align-self-center"
           alt="notFound"
         />
