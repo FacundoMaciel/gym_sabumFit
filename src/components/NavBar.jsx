@@ -16,7 +16,7 @@ function NavBar() {
     },
     {
       id: 3,
-      link: "Info",
+      link: "Servicios",
     },
     {
       id: 4,
@@ -69,9 +69,6 @@ function NavBar() {
         ))}
           </ul>
         </div>
-        <span className="">
-        Equipo de Entrenamiento en métodos de Fuerza y Acondicionamiento. Nuestro lema es la AUTOSUPERACION
-        </span>
       </div>
     </nav>
   );

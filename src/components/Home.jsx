@@ -5,6 +5,9 @@ import sabumFit from "/src/assets/sabumfit.png"
 function Home() {
   return (
     <div name="Inicio">
+      <div className="bg-dark mb-3 container-fluid py-1 text-center text-white text-uppercase py-1 header-offer">
+       <strong> Equipo de Entrenamiento en métodos de Fuerza y Acondicionamiento. Nuestro lema es la AUTOSUPERACION  </strong> 
+      </div>
       <div className="mt-1 container-fluid d-flex justify-content-center shadow">
         <img
           src={imgAnimated}

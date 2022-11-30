@@ -1,5 +1,5 @@
 import React from "react"
-import DataAndPinctures from "./components/DataAndPinctures"
+import DataAndPinctures from "./components/data/DataAndPinctures"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Instructors from "./components/Instructors"
