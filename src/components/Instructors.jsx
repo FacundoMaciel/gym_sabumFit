@@ -1,16 +1,16 @@
 import React from "react";
-import carlos from "/src/assets/sabum.png"
-import franco from "/src/assets/franco.png"
-import yessica from "/src/assets/señora.png"
-import jony from "/src/assets/jony.png"
+import carlos from "/src/assets/sabum.png";
+import franco from "/src/assets/franco.png";
+import yessica from "/src/assets/señora.png";
+import jony from "/src/assets/jony.png";
 
 function Instructores() {
   return (
     <div
       name="Instructores"
-      id="carouselExampleControls"
+      id="carouselExampleControlsNoTouching"
       className="carousel carousel-dark slide"
-      data-bs-ride="carousel"
+      data-bs-touch="false"
     >
       <div className="container-fluid d-flex justify-content-center">
         <div className="carousel-inner d-flex justify">
@@ -28,9 +28,9 @@ function Instructores() {
                   <div className="card-body">
                     <h3 className="card-title fw-bold ">Carlos Fernandez</h3>
                     <h5 className="card-text mt-5">
-                      “Ayudar a otros a desarrollarse y triunfar en
-                      la vida, constituye una recompensa por sí misma y tiene
-                      valor solo si no se espera nada a cambio.”
+                      “Ayudar a otros a desarrollarse y triunfar en la vida,
+                      constituye una recompensa por sí misma y tiene valor solo
+                      si no se espera nada a cambio.”
                     </h5>
                     <p className="card-text mt-5">Sabum Fit Head Couch</p>
                   </div>
@@ -52,7 +52,9 @@ function Instructores() {
                   <div className="card-body">
                     <h3 className="card-title fw-bold ">Franco Fernandez</h3>
                     <h5 className="card-text mt-5">
-                     “Nos uniremos con todos los hombres en una hermandad común sin mirar límites de religión, raza, nacionalidad ni ideología.Nos dedicaremos a la construcción de una sociedad humana de paz completa en la cual la justicia, la moralidad, la confianza y el humanismo prevalezcan.”
+                      “Nos uniremos con todos los hombres en una hermandad común
+                      sin mirar límites de religión, raza, nacionalidad ni
+                      ideología.”
                     </h5>
                     <p className="card-text mt-5">Sabum Fit Asesor Fitness</p>
                   </div>
@@ -74,10 +76,9 @@ function Instructores() {
                   <div className="card-body">
                     <h3 className="card-title fw-bold ">Yessica Benitez</h3>
                     <h5 className="card-text mt-5">
-                     “Nos dedicaremos a la
-                      construcción de una sociedad humana de paz completa en la
-                      cual la justicia, la moralidad, la confianza y el
-                      humanismo prevalezcan.”
+                      “Nos dedicaremos a la construcción de una sociedad humana
+                      de paz completa en la cual la justicia, la moralidad y la
+                      confianza prevalezcan.”
                     </h5>
                     <p className="card-text mt-5">Sabum Fit Asesora Fitness</p>
                   </div>
@@ -99,10 +100,9 @@ function Instructores() {
                   <div className="card-body">
                     <h3 className="card-title fw-bold ">Jony Bijou</h3>
                     <h5 className="card-text mt-5">
-                      “La residencia más confortable y
-                      segura para el hombre es su propia mente virtuosa. Siempre
-                      debe ponerse del lado de la justicia y vivir honrada y
-                      justamente.” 
+                      “La residencia más confortable y segura para el hombre es
+                      su propia mente virtuosa. Siempre debe ponerse del lado de
+                      la justicia y vivir honrada y justamente.”
                     </h5>
                     <p className="card-text mt-5">Sabum Fit Couch</p>
                   </div>
@@ -114,19 +114,25 @@ function Instructores() {
         <button
           className="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselExampleControlsNoTouching"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
           className="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselExampleControlsNoTouching"
           data-bs-slide="next"
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
